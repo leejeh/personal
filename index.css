@@ -1,13 +1,79 @@
-body{
-    background-color: orange;
-    display: block;
+/* 상단영역 */
+header{
+  width: 1440px; /* 너비지정   */
+  margin: 0 auto; /* 중앙정렬 */
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 60px;
+  position: absolute;
+  width: 100%;
 }
-h1{
+header .wrap{
+  
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+header h1{
+  color:red;
+}
+header h1 a{
+   
+  color: black;
+  font-size: 33px;
+  text-transform: : capitalize;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+header ul{
+  display: flex;
+  gap: 20px;
+  font-weight: bold
+}
+header ul li{
+   
+}
+header ul li a{
+   
+}
+
+/* 자식선택자 :바로아래있는선택자(태그) */
+header div.wrap>a{
+
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/menu.svg);
+  background-size: cover;
+}
+/* 타이틀 영역 */
+div#title{
+  background-color: #eee;
+}
+div#title div.wrap{ /* 하위선택자 */
+  width: 1920px;
+  margin: 0 auto;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-image: url(https://images.unsplash.com/photo-1531366936337-7c912a4589a7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: top;
+}
+
+div#title div.wrap h2{
+  color:white;
+}
+  
+}
+div h2{
 
 }
-ul{
-    display: flex;
-}
-ul li{
-    
+div p{
+
 }
